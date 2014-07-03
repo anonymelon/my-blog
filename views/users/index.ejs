@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>list users</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>list users</h1>
+    <ul>
+        <% users.forEach(function(user){ %>
+            <li><%= user %></li>
+            <button><a href=href="/users/delete/<%= user._id%>">delete</a></button>>
+        <% }) %>
+    </ul>
+  </body>
+</html>

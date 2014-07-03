@@ -1,0 +1,9 @@
+{
+    "developEnv": "develop",
+    "port": 3000,
+    "mongodb": {
+        "host": "localhost",
+        "database": "my_blog"
+    }
+
+}
